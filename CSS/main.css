@@ -1,0 +1,98 @@
+body{
+/*	width:80%;*/
+/*	background-color: #dbd1b4;
+*/	margin:0 auto;
+	font-family: 'Muli', sans-serif;
+}
+h1, h2{
+		font-family: 'Bungee', cursive;
+
+}
+a:hover{
+	text-decoration: none;
+	
+}
+.navbar-inverse{
+	background-color: darkred;
+
+}
+nav #logo{
+	height:100px;
+	padding-top:10px;
+}
+#logo a{
+	color:white;
+}
+#logo a:hover{
+	text-decoration: none;
+	color:black;
+}
+
+nav img{
+	max-width: 220px;
+    position: absolute;
+    padding-top:10px;
+    top: 0px;
+    left: 0px;
+    transition: top 0.2s linear;
+}
+.navbar-inverse {
+	border-bottom: solid grey 1px;
+}
+.dropdown-menu {
+	background:black;
+	border-radius: 0.5;
+	width:181.36px;
+	border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+	color: white;
+	font-size: 16px;
+	margin-top: 30px;
+
+}
+.navbar-inverse .navbar-nav li a:hover {
+	color:white;
+	background: black;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+	background:darkred ;
+	color:white;
+}
+.dropdown-menu li a {
+	padding: 10px;
+}
+.navbar-toggle{
+	background-color: black;
+
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    margin-top: 30px;
+}
+#backToTop{
+	text-align: center;
+}
+/*#backToTop a:hover{
+	text-decoration: none;
+	
+}*/
+footer {
+	height:80px;
+	border-top: solid #ddd 1px;
+	text-align: center;
+}
+footer h4{
+	padding:30px;
+}
+@media (max-width: 767px){
+.navbar-inverse .navbar-nav .open .dropdown-menu>li > a {
+     color: black;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li > a:hover {
+     color: white;
+     background-color: black;
+}
+}
+
+
